@@ -1,4 +1,4 @@
-﻿@ECHO on
+@ECHO on
 @ECHO off
 mode con cols=60 lines=15
 TITLE ideployScript
@@ -15,12 +15,12 @@ REM on loggue les commandes
 	echo ------------------------->> %MIGRATIONLog%
 
 :selectapp
-REM Prompt pour choisir machine concern�e
+REM Prompt pour choisir machine concern‚e
 	cls
 	echo.
 	ECHO ___________  INSTALLATION APPLICATIONS METIERS  ___________
 	ECHO.
-	ECHO Selectionner application à installer ?
+	ECHO Selectionner application Ã  installer ?
 	ECHO 0. SORTIE
 	ECHO.
 	ECHO 1. MARCO
